@@ -1,3 +1,5 @@
+#include <dt-bindings/leds/common.h>
+
 &led_aw2013 {
-	AW2013_LED(white, 0)
+	AW2013_LED(white, 0, LED_COLOR_ID_WHITE)
 };

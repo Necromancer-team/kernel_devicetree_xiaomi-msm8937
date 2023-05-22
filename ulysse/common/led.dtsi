@@ -7,8 +7,7 @@
 		compatible = "awinic,aw2013";
 #endif
 		reg = <0x45>;
-		vdd-supply = <&pm8937_l10>;
-		vcc-supply = <&pm8937_l5>;
+		vcc-supply = <&pm8937_l10>;
 
 		AW2013_LED(white, 0)
 	};

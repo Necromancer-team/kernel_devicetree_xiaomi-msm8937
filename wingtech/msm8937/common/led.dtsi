@@ -1,5 +1,7 @@
+#include <dt-bindings/leds/common.h>
+
 &led_aw2013 {
-	AW2013_LED(red, 0)
-	AW2013_LED(green, 1)
-	AW2013_LED(blue, 2)
+	AW2013_LED(red, 0, LED_COLOR_ID_RED)
+	AW2013_LED(green, 1, LED_COLOR_ID_GREEN)
+	AW2013_LED(blue, 2, LED_COLOR_ID_BLUE)
 };
